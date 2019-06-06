@@ -5,11 +5,10 @@ from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageColor
 import time
-from scipy.stats import 
+from scipy.stats import norm
 # Import everything needed to edit/save/watch video clips
 from moviepy.editor import VideoFileClip
 
-%matplotlib inline
 plt.style.use('ggplot')
 
 # Frozen inference graph files. NOTE: change the path to where you saved the models.
